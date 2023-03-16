@@ -36,4 +36,7 @@ def test_stack_pop(stack_zero):
     stack_zero.push('2')
     stack_zero.push('3')
     stack_zero.pop()
-    assert stack_zero.pop() == '2'
+    stack_zero.pop()
+    assert stack_zero.pop() == '1'
+    stack_zero.pop()
+    assert stack_zero.pop() == None
