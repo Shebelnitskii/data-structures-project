@@ -15,7 +15,6 @@ if __name__ == '__main__':
     stack.push('data1')
     stack.push('data2')
     data = stack.pop()
-
     # теперь последний элемента содержит данные data1
     assert stack.top.data == 'data1'
 
