@@ -13,9 +13,9 @@ def test_node_creation():
 def test_linked_list_insert_beginning():
     ll = LinkedList()
     ll.insert_beginning({"id": 1})
-    assert str(ll) == " {'id': 1} -> None"
+    assert str(ll) == "{'id': 1} -> None"
     ll.insert_beginning({"id": 0})
-    assert str(ll) == " {'id': 0} -> {'id': 1} -> None"
+    assert str(ll) == "{'id': 0} -> {'id': 1} -> None"
 
 
 def test_linked_list_insert_at_end():
